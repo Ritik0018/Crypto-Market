@@ -22,7 +22,7 @@ function App() {
     <div className={classes.App}>
       <Header/>
       <Route exact path={process.env.PUBLIC_URL + '/'} component={Homepage} />
-      <Route path={process.env.PUBLIC_URL + '/coins/:id'} component={CoinPage} />
+      <Route path="/coins/:id" component={CoinPage} />
     </div>
     </BrowserRouter>
   );

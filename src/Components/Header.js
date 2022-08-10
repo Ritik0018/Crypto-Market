@@ -34,7 +34,7 @@ const Header = () => {
         <Container>
             <Toolbar>
                 <Typography 
-                onClick={() => history.push("/")} 
+                onClick={() => history.push(process.env.PUBLIC_URL + '/')} 
                 className={classes.title}
                 variant='h6'
                 >
